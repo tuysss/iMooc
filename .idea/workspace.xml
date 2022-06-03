@@ -4,7 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a84d283a-6bb5-4d40-ae45-9025d7e87c0c" name="Changes" comment="" />
+    <list default="true" id="a84d283a-6bb5-4d40-ae45-9025d7e87c0c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/error/ErrorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/error/ErrorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/mapper/BlogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/mapper/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/mapper/TeacherMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/pojo/Blog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/pojo/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/pojo/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TeacherMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/BlogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/TeacherMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tuysss/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/error/ErrorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tuysss/error/ErrorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/mapper/BlogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/mapper/StudentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/mapper/TeacherMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tuysss/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/pojo/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/pojo/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/pojo/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tuysss/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BlogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TeacherMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/BlogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/TeacherMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +61,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,6 +79,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2A0sReGAQGkQv82L3Ma1PMoYgCm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -45,7 +95,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iMooc-vue" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +122,7 @@
       <module name="iMooc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tuysss.*" />
+          <option name="PATTERN" value="com.tuysss.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,7 +138,7 @@
       <module name="iMooc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tuysss.*" />
+          <option name="PATTERN" value="com.tuysss.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,10 +201,23 @@
       <workItem from="1654157833859" duration="8135000" />
       <workItem from="1654215071733" duration="6131000" />
       <workItem from="1654223926320" duration="1843000" />
+      <workItem from="1654256055455" duration="365000" />
+      <workItem from="1654256471668" duration="7144000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

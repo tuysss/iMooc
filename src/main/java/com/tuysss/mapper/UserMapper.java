@@ -1,23 +1,25 @@
 package com.tuysss.mapper;
 
 import com.tuysss.pojo.User;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
 @Repository
 public interface UserMapper {
-    int deleteByPrimaryKey(Integer id);
+    //根据用户id查询用户
+    User getUserById(@Param("id") int id);
 
-    int insert(User row);
+    //根据用户名+密码+身份联合查询用户，登录时用
+    User getUser(@Param("name")String name,@Param("password")String password,@Param("role")int role);
 
-    int insertSelective(User row);
+    //查询全部用户
+    List<User> getAllUsers();
 
-    List<User> selectAllUsers();
+    //添加用户，即注册，暂时用不到
+    int addUser(User user);
 
-    User selectByPrimaryKey(Integer id);
+    //修改用户信息，暂时不涉及密码修改，所以用不到
+    int updateUser(User user);
 
-    int updateByPrimaryKeySelective(User row);
-
-    int updateByPrimaryKey(User row);
 }

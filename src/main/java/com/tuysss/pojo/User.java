@@ -1,36 +1,15 @@
 package com.tuysss.pojo;
 
-import org.springframework.stereotype.Repository;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
-    private Integer id;
-
+    private int id;
     private String name;
-
-    private String pwd;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPwd() {
-        return pwd;
-    }
-
-    public void setPwd(String pwd) {
-        this.pwd = pwd;
-    }
+    private String password;
+    private int role;  //0管理员，1老师，2学生
 }

@@ -1,0 +1,17 @@
+#端口号
+server:
+  port: 8443
+
+#jdbc配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/imooc?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&userSSL=false
+    username: root
+    password: 123456
+
+#mybatis配置
+mybatis:
+  type-aliases-package: com.tuysss.pojo
+  mapper-locations:classpath: mybatis/mapper/*.xml
+
