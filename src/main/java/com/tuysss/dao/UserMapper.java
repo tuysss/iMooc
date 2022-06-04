@@ -1,4 +1,4 @@
-package com.tuysss.mapper;
+package com.tuysss.dao;
 
 import com.tuysss.pojo.User;
 import org.apache.ibatis.annotations.Param;

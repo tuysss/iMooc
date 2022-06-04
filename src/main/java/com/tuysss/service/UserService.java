@@ -1,10 +1,7 @@
 package com.tuysss.service;
 
-import com.tuysss.mapper.UserMapper;
 import com.tuysss.pojo.User;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 //@Service 只有实现类是可以实例化的

@@ -1,6 +1,6 @@
 package com.tuysss.service;
 
-import com.tuysss.mapper.UserMapper;
+import com.tuysss.dao.UserMapper;
 import com.tuysss.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

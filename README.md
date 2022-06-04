@@ -9,7 +9,6 @@
 ### 后端：
 + Springboot
 + Mybatis 数据持久层
-+ Mybatis Generator 逆向工程pojo和mapper
 
 ## todo:
 - [x] 数据库设计
@@ -26,6 +25,7 @@
 
 
 ## 开发进度
+6.4 学习axios交互前端后端数据，初步实现学生权限下的选课  
 6.3 建库，登录模块  
 6.2 确认技术选型，弃用generator  
 5.50-6.1 需求分析，前端模型和数据库大致设计

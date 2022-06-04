@@ -10,10 +10,10 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-/*
-判断 session 中是否存在 user 属性.如果存在就放行，如果不存在就跳转到 login 页面。
-这里使用了一个路径列表（requireAuthPages），可以在里面写下需要拦截的路径.
- */
+//判断 session 中是否存在 user 属性.如果存在就放行，如果不存在就跳转到 login 页面。
+//这里使用了一个路径列表（requireAuthPages），可以在里面写下需要拦截的路径.
+
+
 public class LoginInterceptor implements HandlerInterceptor {
 
     @Override

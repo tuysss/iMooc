@@ -1,13 +1,12 @@
 package com.tuysss.controller;
 
-import com.tuysss.mapper.UserMapper;
 import com.tuysss.pojo.User;
 import com.tuysss.result.Result;
 import com.tuysss.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.util.HtmlUtils;
+
 import javax.servlet.http.HttpSession;
 
 @Controller
@@ -19,7 +18,12 @@ public class LoginController {
     @PostMapping(value = "/api/login")
     @ResponseBody
     public Result login(@RequestBody User requestUser, HttpSession session){
-        User user = userService.getLoginUser(requestUser.getName(), requestUser.getPassword(), requestUser.getRole());
+        String name=requestUser.getName();
+        String psw= requestUser.getPassword();
+        int role=requestUser.getRole();
+        System.out.println(name+" "+psw+" "+role);
+        User user = userService.getLoginUser(name,psw ,role);
+        System.out.println(user.getName()+user.getPassword()+user.getRole());
         if(user==null){
             return new Result(400);
         }else{
