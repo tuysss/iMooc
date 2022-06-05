@@ -12,9 +12,6 @@ public class Selection {
     private int cid;
     private int tid;
     private int sid;
-    private String cname;
-    private String tname;
-    private String sname;
     private int progress;
     private int isfinish; //0未完成 1完成
     private float mark;

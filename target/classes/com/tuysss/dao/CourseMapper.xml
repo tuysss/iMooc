@@ -8,5 +8,9 @@
         select * from course;
     </select>
 
+    <select id="getTeacherId" resultType="int">
+        select tid from course where id=#{id};
+    </select>
+
 
 </mapper>

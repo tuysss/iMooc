@@ -6,27 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="a84d283a-6bb5-4d40-ae45-9025d7e87c0c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/IMoocApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/IMoocApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/controller/StuCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/controller/StuCourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/dao/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/dao/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/dao/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/dao/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/dao/SelectionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/dao/SelectionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/dao/SelectionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/dao/SelectionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/pojo/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/pojo/Selection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tuysss/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tuysss/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/IMoocApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tuysss/IMoocApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tuysss/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/controller/StuCourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tuysss/controller/StuCourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/dao/CourseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tuysss/dao/CourseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/dao/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tuysss/dao/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/pojo/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tuysss/pojo/Selection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tuysss/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tuysss/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iMooc-vue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -192,6 +183,9 @@
       <workItem from="1654323392135" duration="6638000" />
       <workItem from="1654336288871" duration="6151000" />
       <workItem from="1654352354090" duration="92000" />
+      <workItem from="1654388855082" duration="8022000" />
+      <workItem from="1654399873587" duration="9506000" />
+      <workItem from="1654432588575" duration="2644000" />
     </task>
     <servers />
   </component>

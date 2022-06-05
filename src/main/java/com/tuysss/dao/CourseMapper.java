@@ -9,4 +9,6 @@ import java.util.List;
 public interface CourseMapper {
 
     List<Course> getAllCourse();
+
+    int getTeacherId(int id);
 }
